@@ -3,7 +3,7 @@ import useFetchGifs from "../hooks/useFetchGifs";
 import GifItem from "./GifItem";
 
 
-const GifGrid = ({ category }) => {
+export const GifGrid = ({ category }) => {
 
     const { images, isLoading } = useFetchGifs( category )
 
