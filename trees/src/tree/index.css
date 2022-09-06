@@ -1,0 +1,18 @@
+.tree {
+    background-color: #efefef;
+    height: 100%;
+    padding: 10px;
+    font-family: monospace
+}
+
+
+.tree li{
+    margin: 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 10px;
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "name": "mammals",
+        "children": [
+            {
+                "name": "cheetah",
+                "children": []
+            },
+            {
+                "name": "bear",
+                "children": [
+                    {
+                        "name": "lion",
+                        "children":[]
+                    },
+                    {
+                        "name": "dog",
+                        "children":[
+                            {
+                                "name": "elephant",
+                                "children":[]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "ape",
+                "children": []
+            }
+        ]
+    }
+]
